@@ -18,5 +18,11 @@
         "type": "git",
         "url": "https://github.com/smekalka/extremum-models-js",
         "directory": "/"
-    }
+    },
+    "exports": {
+    	".": {
+			"import": "./index.js",
+      		"require": "./index.js"
+		}
+	}
 }
