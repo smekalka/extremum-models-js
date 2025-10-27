@@ -1,6 +1,6 @@
 {
     "name": "@extremum/models",
-    "version": "4.0.1",
+    "version": "4.0.2",
     "description": "Complex extensible data models for real world applications.",
     "keywords": [
         "data",
@@ -20,9 +20,9 @@
         "directory": "/"
     },
     "exports": {
-    	".": {
-			"import": "./index.js",
-      		"require": "./index.js"
-		}
-	}
+        ".": {
+            "import": "./index.js",
+            "require": "./index.js"
+        }
+    }
 }
