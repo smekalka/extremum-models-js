@@ -1,29 +1,50 @@
 {
     "name": "@extremum/models",
-    "version": "4.0.3",
+    "type": "module",
+    "version": "4.0.13",
     "description": "Complex extensible data models for real world applications.",
     "keywords": [
         "data",
-        "models"
+        "models",
+        "backend",
+        "frontend"
     ],
-    "license": "ISC",
-    "author": "Mikhail Sokolov <mikhail.sokolov@smekalka.com>",
     "homepage": "https://extremum.io/",
-    "type": "module",
-    "main": "index.js",
-    "module": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/smekalka/extremum-models-js",
+        "url": "git+https://github.com/smekalka/extremum-models-js.git",
         "directory": "/"
     },
+    "bugs": {
+        "url": "https://github.com/smekalka/extremum-models-js/issues"
+    },
+    "author": {
+        "name": "Mikhail Sokolov",
+        "email": "mikhail.sokolov@smekalka.com",
+        "url": "https://github.com/electroshaman"
+    },
+    "contributors": [],
+    "license": "ISC",
+    "private": false,
+    "module": "index.mjs",
+    "main": "index.mjs",
     "exports": {
         ".": {
-            "import": "./index.js",
-            "require": "./index.js"
+            "import": "./index.mjs",
+            "require": "./index.mjs"
         }
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "jest": "^30.2.0"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
     }
 }
