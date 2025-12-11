@@ -7,7 +7,7 @@
 
 'use strict';
 
-import { Namespace } from './Namespace.mjs';
+import { Namespace } from '../lib/Namespace.mjs';
 import { _namespaces } from './_test.js';
 
 //jest.spyOn(console, 'log');

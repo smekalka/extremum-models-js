@@ -1,0 +1,6 @@
+.test.js
+
+tests/
+examples/
+node_modules/
+coverage/

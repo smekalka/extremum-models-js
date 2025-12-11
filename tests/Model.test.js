@@ -7,7 +7,7 @@
 
 'use strict';
 
-import { Model } from './Model.mjs';
+import { Model } from '../lib/Model.mjs';
 import { _namespaces } from './_test.js';
 
 //jest.spyOn(console, 'log');

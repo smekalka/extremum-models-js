@@ -7,9 +7,9 @@
 
 'use strict';
 
-import { Instance } from './Instance.mjs';
-import { Model } from './Model.mjs';
-import { Origin } from './Origin.mjs';
+import { Instance } from '../lib/Instance.mjs';
+import { Model } from '../lib/Model.mjs';
+import { Origin } from '../lib/Origin.mjs';
 import { _namespaces, _system } from './_test.js';
 
 //jest.spyOn(console, 'log');

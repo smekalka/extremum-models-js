@@ -16,3 +16,5 @@ export { Instance } from './lib/Instance.mjs';
 export { Descriptor } from './lib/Descriptor.mjs';
 export { Origin } from './lib/Origin.mjs';
 export { Collection } from './lib/Collection.mjs';
+export { Named } from './lib/Named.mjs';
+export { Described } from './lib/Described.mjs';

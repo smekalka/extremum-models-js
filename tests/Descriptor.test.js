@@ -7,8 +7,8 @@
 
 'use strict';
 
-import { Descriptor } from './Descriptor.mjs';
-import { Model } from './Model.mjs';
+import { Descriptor } from '../lib/Descriptor.mjs';
+import { Model } from '../lib/Model.mjs';
 import { randomUUID } from 'crypto';
 import { _namespaces } from './_test.js';
 

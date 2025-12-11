@@ -7,7 +7,7 @@
 
 'use strict';
 
-import { System } from './System.mjs';
+import { System } from '../lib/System.mjs';
 import { _namespaces } from './_test.js';
 
 //jest.spyOn(console, 'log');

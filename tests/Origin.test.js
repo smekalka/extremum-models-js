@@ -7,8 +7,8 @@
 
 'use strict';
 
-import { Origin } from './Origin.mjs';
-import { System } from './System.mjs';
+import { Origin } from '../lib/Origin.mjs';
+import { System } from '../lib/System.mjs';
 import { _namespaces } from './_test.js';
 
 //jest.spyOn(console, 'log');

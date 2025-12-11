@@ -7,8 +7,8 @@
 
 'use strict';
 
-import { Collection } from './Collection.mjs';
-import { Model } from './Model.mjs';
+import { Collection } from '../lib/Collection.mjs';
+import { Model } from '../lib/Model.mjs';
 import { _namespaces } from './_test.js';
 
 //jest.spyOn(console, 'log');
