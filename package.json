@@ -1,7 +1,7 @@
 {
 	"name": "@extremum/models",
 	"type": "module",
-	"version": "4.0.16",
+	"version": "4.0.18",
 	"description": "Complex extensible data models for real world applications.",
 	"keywords": [
 		"data",

@@ -9,6 +9,7 @@
 //import { createRequire } from 'module';
 //const require = createRequire(import.meta.url);
 
+export { UUID } from './lib/UUID.mjs';
 export { Namespace } from './lib/Namespace.mjs';
 export { System } from './lib/System.mjs';
 export { Model } from './lib/Model.mjs';
